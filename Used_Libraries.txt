@@ -1,2 +1,2 @@
-Frontend (1470KB) => npm i react-redux @reduxjs/toolkit react-datepicker react-router-dom@6 @mui/material @emotion/react @emotion/styled @mui/icons-material @mui/x-data-grid @nivo/core @nivo/bar @nivo/geo @nivo/pie
-Backend () => npm i 
+Frontend (1.43 MB) => npm i react-redux @reduxjs/toolkit react-datepicker react-router-dom@6 @mui/material @emotion/react @emotion/styled @mui/icons-material @mui/x-data-grid @nivo/core @nivo/bar @nivo/geo @nivo/pie
+Backend (10.42 MB) => npm i express body-parser cors dotenv helmet morgan mongoose nodemon
