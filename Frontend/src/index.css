@@ -8,3 +8,18 @@ body,
   width: 100%;
   font-family: "Inter", "San-serif";
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background-color: #c4bbbb;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 2em;
+  background-color: #6a6666;
+}
