@@ -7,10 +7,10 @@ import {
   SettingsOutlined,
   ArrowDropDownOutlined,
 } from "@mui/icons-material";
-import FlexBetween from "components/FlexBetween";
+import FlexBetween from "../FlexBetween";
 import { useDispatch } from "react-redux";
-import { setMode } from "store";
-import profileImage from "assets/profile.jpeg";
+import { setMode } from "../../store";
+import profileImage from "../../assets/profile.jpeg";
 import {
   AppBar,
   Button,
@@ -24,14 +24,14 @@ import {
   useTheme,
 } from "@mui/material";
 
-const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
+const Navbar = ({ isSidebarOpen, setIsSidebarOpen }) => {
   const dispatch = useDispatch();
   const theme = useTheme();
 
-  const [anchorEl, setAnchorEl] = useState(null);
-  const isOpen = Boolean(anchorEl);
-  const handleClick = (event) => setAnchorEl(event.currentTarget);
-  const handleClose = () => setAnchorEl(null);
+  // const [anchorEl, setAnchorEl] = useState(null);
+  // const isOpen = Boolean(anchorEl);
+  // const handleClick = (event) => setAnchorEl(event.currentTarget);
+  // const handleClose = () => setAnchorEl(null);
 
   return (
     <AppBar

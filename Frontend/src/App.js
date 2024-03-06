@@ -5,18 +5,18 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { themeSettings } from "./theme";
 
-import Layout from "scenes/Layout/Layout";
-import Dashboard from "scenes/Dashboard/Dashboard";
-import Products from "scenes/Products/Products";
-import Customers from "scenes/Customers/Customers";
-import Transactions from "scenes/Transactions/Transactions";
-import Geography from "scenes/Geography/Geography";
-import Overview from "scenes/Overview/Overview";
-import Daily from "scenes/Daily/Daily";
-import Monthly from "scenes/Monthly/Monthly";
-import Breakdown from "scenes/Breakdown/Breakdown";
-import Admin from "scenes/Admin/Admin";
-import Performance from "scenes/Performance/Performance";
+import Layout from "./scenes/Layout/Layout";
+import Dashboard from "./scenes/Dashboard/Dashboard";
+import Products from "./scenes/Products/Products";
+import Customers from "./scenes/Customers/Customers";
+import Transactions from "./scenes/Transactions/Transactions";
+import Geography from "./scenes/Geography/Geography";
+import Overview from "./scenes/Overview/Overview";
+import Daily from "./scenes/Daily/Daily";
+import Monthly from "./scenes/Monthly/Monthly";
+import Breakdown from "./scenes/Breakdown/Breakdown";
+import Admin from "./scenes/Admin/Admin";
+import Performance from "./scenes/Performance/Performance";
 
 function App() {
   const mode = useSelector((state) => state.global.mode);

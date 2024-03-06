@@ -31,7 +31,7 @@ import {
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import FlexBetween from "../FlexBetween";
-import profileImage from "assets/profile.jpeg";
+import profileImage from "../../assets/profile.jpeg";
 
 const navItems = [
   {
@@ -100,8 +100,8 @@ const Sidebar = ({
   isNonMobile,
 }) => {
   const { pathname } = useLocation();
-  const [active, setActive] = useState("");
   const navigate = useNavigate();
+  const [active, setActive] = useState("");
   const theme = useTheme();
 
   useEffect(() => {

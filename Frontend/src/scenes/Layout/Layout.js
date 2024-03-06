@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Box, useMediaQuery } from "@mui/material";
 import { Outlet } from "react-router-dom";
 import { useSelector } from "react-redux";
-import Navbar from "components/Navbar/Navbar";
-import Sidebar from "components/Sidebar/Sidebar";
+import Navbar from "../../components/Navbar/Navbar";
+import Sidebar from "../../components/Sidebar/Sidebar";
 
 const Layout = () => {
   const isNonMobile = useMediaQuery("(min-width: 600px)");
