@@ -35,10 +35,10 @@ export const api = createApi({
       }),
       providesTags: ["Transactions"],
     }),
-    // getGeography: build.query({
-    //   query: () => "clients/geography",
-    //   providesTags: ["Geography"],
-    // }),
+    getGeography: build.query({
+      query: () => "clients/geography",
+      providesTags: ["Geography"],
+    }),
     // getSales: build.query({
     //   query: () => "sales/sales",
     //   providesTags: ["Sales"],
@@ -63,7 +63,7 @@ export const {
   useGetProductsQuery,
   useGetCustomersQuery,
   useGetTransactionsQuery,
-  // useGetGeographyQuery,
+  useGetGeographyQuery,
   // useGetSalesQuery,
   // useGetAdminsQuery,
   // useGetUserPerformanceQuery,

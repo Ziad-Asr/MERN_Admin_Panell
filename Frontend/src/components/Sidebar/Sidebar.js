@@ -193,9 +193,13 @@ const Sidebar = ({
             </List>
           </Box>
 
-          <Box sx={{ margin: "30px 0 30px 0" }}>
+          <Box sx={{ paddingTop: "4rem" }}>
             <Divider />
-            <FlexBetween textTransform="none" gap="1rem" m="1.5rem 2rem 0 3rem">
+            <FlexBetween
+              textTransform="none"
+              gap=".5rem"
+              m="2rem 1rem 2rem 1rem"
+            >
               <Box
                 component="img"
                 alt="profile"
