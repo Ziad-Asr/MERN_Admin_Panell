@@ -51,7 +51,7 @@ const Admin = () => {
   ];
 
   return (
-    <Box m="1.5rem 2.5rem">
+    <Box m=".4rem 2.5rem">
       <Header title="ADMINS" subtitle="Managing admins and list of admins" />
       <Box
         mt="40px"
