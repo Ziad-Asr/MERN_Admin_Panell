@@ -92,3 +92,11 @@ const Customers = () => {
 };
 
 export default Customers;
+
+// const isMobile = useMediaQuery("(max-width: 500px)");
+
+//   let boxsyles = isMobile
+//     ? { display: "flex", alignItems: "center", justifyContent: "center" }
+//     : {};
+
+//<h2 style={{ textAlign: "center" }}>There is no customers</h2>
